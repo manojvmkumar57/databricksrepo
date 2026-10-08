@@ -1,0 +1,12 @@
+config {
+  type: "table",
+  description: "This step takes the data from first_view and saves it physically."
+}
+
+SELECT
+  count(*) as total_count
+FROM
+  ${ref("first_view")}
+where 
+SAFE_CAST(sal AS INT64) > 100000
+
