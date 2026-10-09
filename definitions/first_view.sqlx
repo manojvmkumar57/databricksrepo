@@ -7,8 +7,6 @@ SELECT
   *
 FROM
   ${ref(`messy_raw_data`)} 
-<<<<<<< HEAD
+
 limit 10
-=======
-limit 10
->>>>>>> refs/heads/main
+

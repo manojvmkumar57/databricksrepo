@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 defaultProject: bankingproject2026-508403
 defaultDataset: dataform
 defaultLocation: US
 defaultAssertionDataset: dataform_assertions
 dataformCoreVersion: 3.0.52
-=======
-
->>>>>>> refs/heads/main
