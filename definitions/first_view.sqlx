@@ -1,0 +1,13 @@
+config {
+  type: "view",
+  description: "This view pulls from our existing table and applies a simple filter."
+}
+
+SELECT
+  *
+FROM
+  ${ref(`messy_raw_data`)} 
+
+limit 10
+
+
