@@ -1,5 +1,5 @@
 defaultProject: bankingproject2026-508403
 defaultDataset: dataform
-defaultLocation: US
+defaultLocation: africa-south1
 defaultAssertionDataset: dataform_assertions
 dataformCoreVersion: 3.0.52
