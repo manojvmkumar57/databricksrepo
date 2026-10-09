@@ -1,6 +1,0 @@
-config {
-  type: "declaration",
-  database: `bankingproject2026-508403`, 
-  schema: `banking_database`,     
-  name: `messy_raw_data`
-}
