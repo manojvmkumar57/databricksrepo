@@ -7,7 +7,7 @@ SELECT
   *
 FROM
   ${ref(`messy_raw_data`)} 
-
+order by id
 limit 10
 
 
