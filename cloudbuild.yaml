@@ -1,8 +1,11 @@
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  entrypoint: 'bash'
+  entrypoint: bash
   args:
-    - '-c'
+    - -c
     - |
       gcloud dataproc batches submit pyspark \
       filter_data.py \
