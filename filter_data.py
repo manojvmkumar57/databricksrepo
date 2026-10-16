@@ -15,3 +15,5 @@ filtered_df.write.mode("overwrite") \
     .csv(f"gs://banking_bucket2026/raw_data_file/customer_{timestamp}")
 
 spark.stop()
+
+print("Cloud Build Test")
