@@ -1,0 +1,9 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args:
+    - '-c'
+    - |
+      gcloud dataproc batches submit pyspark \
+      filter_data.py \
+      --region=us-central1
